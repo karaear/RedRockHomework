@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        height: 100px;
+        width: 120px;
+        background-color: pink;
+      }
+
+      table {
+        height: 40px;
+        width: 400px;
+        border-collapse: collapse;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid;
+      }
+
+      .button {
+        height: 30px;
+        width: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>这是我的二级标题</h2>
+    <p>问群吹b两小时，百度解决两分钟</p>
+    <h3>这是我的三级标题</h3>
+    <img src="躺了.jpg" title="卷不动力" />
+    <div class="box">我是盒子捏</div>
+    <a href="https://www.baidu.com">点击我可以跳到百度哦</a>
+    <ul>
+      <li>我</li>
+      <li>是</li>
+      <li>无</li>
+      <li>序</li>
+      <li>表</li>
+    </ul>
+    <form>
+      <input type="text" placeholder="我是fw" /><input
+        type="submit"
+        value="不管怎么按都没用的按钮"
+      /><br />
+      <br/ >
+      <table>
+        <tr>
+          <td align="center">用户名:</td>
+          <td colspan="3"><input type="text" /></td>
+        </tr>
+        <tr>
+          <td align="center">密码:</td>
+          <td colspan="3"><input type="password" /></td>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">
+            <input type="submit" />&nbsp;<input type="reset" />
+          </td>
+        </tr>
+      </table>
+      <p>下面是你自己的自我描述，写了这么久，总要来个自我介绍吧~</p>
+
+      性别<input type="radio" name="sex" id="man" /><label for="man">男</label
+      ><input type="radio" name="sex" id="woman" /><label for="woman">女</label>
+      城市：
+      <select>
+        <option selected="selected">重庆</option>
+        <option>北京</option>
+        <option>天津</option>
+        <option>上海</option>
+        <!-- 下面就不写了QAQ -->
+      </select>
+      爱好： <input type="checkbox" name="hobby" />打游戏
+      <input type="checkbox" name="hobby" /> 听音乐<input
+        type="checkbox"
+        name="hobby"
+      />运动<br />
+      目标：<textarea
+        placeholder="抱歉迟交作业了orz"
+        cols="40"
+        rows="4"
+      ></textarea>
+    </form>
+  </body>
+</html>
